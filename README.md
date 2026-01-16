@@ -1,58 +1,40 @@
-# 🛡️ AI Anti-Spyware - No Track
+# No-Track Anti-Spyware
 
-A Flutter-based AI-powered anti-spyware application that protects your device from tracking and surveillance.
+## Overview
+A comprehensive privacy protection suite designed to detect and block unauthorized surveillance. No-Track provides advanced shielding against tracking cookies, spyware injections, and digital fingerprinting, ensuring your digital footprint remains invisible.
 
----
+## Features
+-   **Spyware Detection**: Scans and eliminates hidden tracking software.
+-   **Cookie Blocker**: Automatically prevents invasive third-party tracking cookies.
+-   **Cam/Mic Shield**: Hardware-level monitoring to alert unauthorized camera or microphone access.
+-   **Fingerprint Scrambling**: Randomizes browser signatures to prevent identification.
+-   **Real-time Protection**: Continuous background monitoring for new threats.
 
-## 🌟 Overview
+## Technology Stack
+-   **Core**: Flutter/Dart for cross-platform mobile and desktop support.
+-   **Analysis**: Custom heuristic engine for behavioral analysis.
+-   **Network**: VPN tunneling for encrypted traffic.
 
-No Track is a comprehensive anti-spyware solution built with Flutter, featuring AI-based threat detection and real-time privacy protection.
+## Usage Flow
+1.  **Scan**: User initiates a system-wide privacy scan.
+2.  **Identify**: System flags suspicious applications and trackers.
+3.  **Block**: User authorizes removal or blocking of threats.
+4.  **Shield**: Background service remains active to prevent re-infection.
 
-## ✨ Features
-
-- **AI Detection** - Machine learning threat identification
-- **Anti-Tracking** - Blocks surveillance attempts
-- **Cross-Platform** - Flutter for Android/iOS
-- **Real-time Protection** - Continuous monitoring
-
-## 📁 Project Structure
-
-```
-no track/
-├── lib/              # Dart source code
-├── android/          # Android platform
-├── assets/           # App assets
-├── ai_anti_spyware/  # AI detection module
-└── pubspec.yaml      # Flutter config
-```
-
-## 🚀 Quick Start
-
+## Quick Start
 ```bash
-# Get dependencies
+# Clone the repository
+git clone https://github.com/Nytrynox/No-Track-Anti-Spyware.git
+
+# Install Flutter dependencies
 flutter pub get
 
-# Run on device
+# Run the application
 flutter run
 ```
 
-## 🔬 Technology Stack
-
-| Component | Technology |
-|-----------|------------|
-| Framework | Flutter, Dart |
-| AI | TensorFlow Lite |
-| Platform | Android, iOS |
-
-## 📝 License
-
+## License
 MIT License
 
-## 👤 Author
-
-**Karthik Idikuda**  
-Mobile Developer | Security Specialist
-
----
-
-*Privacy first*
+## Author
+**Karthik Idikuda**
